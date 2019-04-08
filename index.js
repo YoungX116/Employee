@@ -5,7 +5,6 @@ const multer = require("multer");
 const upload = multer({ dest: "uploads/" }).single("avatar");
 const fs = require("fs");
 const path = require("path");
-const axios = require("axios");
 
 const Employee = require("./models/Employee");
 

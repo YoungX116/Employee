@@ -28,5 +28,4 @@ const EmployeeSchema = new Schema({
 });
 
 EmployeeSchema.plugin(mongoosePaginate);
-
 module.exports = mongoose.model("Employee", EmployeeSchema);
