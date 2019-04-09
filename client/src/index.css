@@ -1,31 +1,3 @@
-.btn {
-  color: white;
-  border-radius: 0px;
-  margin-right: 10px;
-}
-.btn:hover {
-  color: white;
-}
-.button-focus-no-border {
-  border-color: #ccc;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.select-hover {
-  cursor: pointer;
-}
-.input {
-  border: 0;
-  outline: none;
-}
-.link {
-  color: blue;
-}
-.link:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
 .search-bar {
   display: inline-flex;
   position: relative;
@@ -109,6 +81,34 @@ td {
 .loading {
   text-align: center;
   color: blue;
+}
+.btn {
+  color: white;
+  border-radius: 0px;
+  margin-right: 10px;
+}
+.btn:hover {
+  color: white;
+}
+.button-focus-no-border {
+  border-color: #ccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.select-hover {
+  cursor: pointer;
+}
+.input {
+  border: 0;
+  outline: none;
+}
+.link {
+  color: blue;
+}
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .image-upload {
   display: block;
