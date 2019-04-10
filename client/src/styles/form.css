@@ -1,0 +1,15 @@
+form {
+  background-color: #f8f9fa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form-check {
+  margin-left: 30px;
+}
+label {
+  margin-bottom: 0;
+}
+.error {
+  color: red;
+  font-size: 18px;
+}
