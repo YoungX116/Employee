@@ -6,10 +6,12 @@
   overflow: hidden;
 }
 .search-input {
-  border: 0;
-  outline: none;
   padding-left: 0.3rem;
   width: 250px;
+}
+.search-input .input {
+  border: 0;
+  outline: none;
 }
 .search-icon {
   color: dodgerblue;
@@ -82,6 +84,20 @@ td {
   text-align: center;
   color: blue;
 }
+.image-upload {
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.image-avatar {
+  display: block;
+  height: 40px;
+  width: 40px;
+}
 .btn {
   color: white;
   border-radius: 0px;
@@ -109,20 +125,6 @@ td {
 .link:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-.image-upload {
-  display: block;
-  height: 300px;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.image-avatar {
-  display: block;
-  height: 40px;
-  width: 40px;
 }
 form {
   background-color: #f8f9fa;
